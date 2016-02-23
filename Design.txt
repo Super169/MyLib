@@ -1,0 +1,44 @@
+myUtil    : General utilities
+
+
+MyIoTSystem
+-MyUI     : Debugging UI
+-MyNET    : Netowrk 
+-MyIOT    : IoT provider 
+-MySENSOR : Sensor
+
+
+MyUI
+-MyUI_HWSerial
+-MyUI_UsartGPU
+-MyUI_UTFT9225
+
+MyNET
+-MyNET_W5100
+
+MyIoT
+-MyIOT_YeeLink
+
+MySENSOR
++MySENSOR(char* name)
++setIoT(MyIoT& myIoT, uint8_t sample_size, )  <- use for 
++begin()
++end()
++isReady()
++clear()
++getDataCount()
++getData()
++getData(uint8_t idx)
++sampling()
++getAdjData()
++getAdjData(uint8_t idx)
++sendData(MyIoT& myIoT)
++getName()
+-MySENSOR_Random
+-MySENSOR_Analog
+-MySENSOR_BMP180
+-MySENSOR_DHT11
+-MySENSOR_DS2321
+-MySENSOR_PPD42NS
+
+
